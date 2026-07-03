@@ -1,0 +1,56 @@
+token literal names:
+null
+'int'
+'public'
+'class'
+'static'
+'void'
+'String'
+'System'
+null
+null
+null
+'('
+')'
+'{'
+'}'
+'['
+']'
+'='
+'+'
+';'
+'.'
+null
+
+token symbolic names:
+null
+null
+PUBLIC
+CLASS
+STATIC
+VOID
+STRING
+SYSTEM
+NUM
+IDF
+TEXTO
+PAR1
+PAR2
+LLAVE1
+LLAVE2
+CORCHETE1
+CORCHETE2
+IGUAL
+MAS
+PUNTOCOMA
+PUNTO
+WS
+
+rule names:
+root
+expr
+int
+
+
+atn:
+[4, 1, 21, 14, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 2, 1, 2, 1, 2, 0, 0, 3, 0, 2, 4, 0, 1, 1, 0, 8, 10, 10, 0, 6, 1, 0, 0, 0, 2, 9, 1, 0, 0, 0, 4, 11, 1, 0, 0, 0, 6, 7, 3, 2, 1, 0, 7, 8, 5, 0, 0, 1, 8, 1, 1, 0, 0, 0, 9, 10, 7, 0, 0, 0, 10, 3, 1, 0, 0, 0, 11, 12, 5, 1, 0, 0, 12, 5, 1, 0, 0, 0, 0]
