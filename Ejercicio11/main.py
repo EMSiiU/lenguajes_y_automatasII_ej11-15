@@ -34,7 +34,17 @@ class Main:
         self.analizador.imprimir_tokens()
         self.analizador.imprimir_errores()
 
+    def ejecutar_terminal(self):
+        print("Escribe 'salir' para terminar")
+        while True:
+            codigo = input("Escribe el código a analizar: ")
+            if codigo.lower() == "salir":
+                break
+            self.analizador.analizar(codigo)
+            self.analizador.imprimir_tokens()
+            self.analizador.imprimir_errores()
+
 # permite controlar el punto de inicio del programa y evita que el código principal se ejecute automáticamente al importar el archivo
 if __name__ == "__main__":
     app = Main()
-    app.ejecutar()
+    app.ejecutar_terminal()
