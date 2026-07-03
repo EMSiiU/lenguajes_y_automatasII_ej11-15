@@ -47,5 +47,5 @@ class Main:
 # permite controlar el punto de inicio del programa y evita que el código principal se ejecute automáticamente al importar el archivo
 if __name__ == "__main__":
     app = Main()
-    app.ejecutar_terminal()
-    #app.ejecutar()
+    #app.ejecutar_terminal()
+    app.ejecutar()
